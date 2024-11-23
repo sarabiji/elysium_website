@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+a{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: antiquewhite;
+    padding: .5em;
+    
+}
+
+h5{
+    font-weight: normal;
+    font-family: "Bodoni Moda", serif;
+    font-size: 18px;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: color .5s;
+}
+.nav a:hover{
+    color: aqua;
+}
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.page1{
+    background-image: url("assets/background3.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    
+}
+.font-medium{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding-top: 200px;
+  
+    
+}
+.font-large{
+    font-size: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Bodoni Moda", serif;  
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 14px 50px ;
+    transition: background-color .675s;
+    
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+
